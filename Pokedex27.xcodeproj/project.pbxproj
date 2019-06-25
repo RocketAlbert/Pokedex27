@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F6D6862C22C28A140031C288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D6862B22C28A140031C288 /* AppDelegate.swift */; };
-		F6D6862E22C28A140031C288 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D6862D22C28A140031C288 /* ViewController.swift */; };
 		F6D6863122C28A140031C288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D6862F22C28A140031C288 /* Main.storyboard */; };
 		F6D6863322C28A150031C288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D6863222C28A150031C288 /* Assets.xcassets */; };
 		F6D6863622C28A150031C288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D6863422C28A150031C288 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		F6D6862822C28A140031C288 /* Pokedex27.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex27.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D6862B22C28A140031C288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6D6862D22C28A140031C288 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6D6863022C28A140031C288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6D6863222C28A150031C288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6D6863522C28A150031C288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,21 @@
 		F6D6862A22C28A140031C288 /* Pokedex27 */ = {
 			isa = PBXGroup;
 			children = (
+				F6D6863D22C28BCB0031C288 /* Resources */,
+			);
+			path = Pokedex27;
+			sourceTree = "<group>";
+		};
+		F6D6863D22C28BCB0031C288 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				F6D6862B22C28A140031C288 /* AppDelegate.swift */,
-				F6D6862D22C28A140031C288 /* ViewController.swift */,
 				F6D6862F22C28A140031C288 /* Main.storyboard */,
 				F6D6863222C28A150031C288 /* Assets.xcassets */,
 				F6D6863422C28A150031C288 /* LaunchScreen.storyboard */,
 				F6D6863722C28A150031C288 /* Info.plist */,
 			);
-			path = Pokedex27;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D6862E22C28A140031C288 /* ViewController.swift in Sources */,
 				F6D6862C22C28A140031C288 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CFV9N227P7;
-				INFOPLIST_FILE = Pokedex27/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pokedex27/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CFV9N227P7;
-				INFOPLIST_FILE = Pokedex27/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pokedex27/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
